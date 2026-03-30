@@ -6,6 +6,6 @@ public string MarkAsDone(string[] todos){
     for(int i = 0; i < todos.length; i++){
         result[i] = "done -" + todos[i];
     }
-    return result
+    return result;
 }
 }
